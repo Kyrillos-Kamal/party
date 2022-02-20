@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--                                bootStrap                                -->
+    <link rel="stylesheet" href="Style/bootstrap.min.css" />
+
+    <!--                               fontAwesome                               -->
+    <link rel="stylesheet" href="Style/all.min.css" />
+
+    <!--                                 myStyle                                 -->
+    <link rel="stylesheet" href="Style/myStyle.css" />
+
+    <title>Egyptian Party</title>
+  </head>
+  <body>
+    <!--                               Start Home                                -->
+
+    <section id="landingpage" class="mb-5">
+      <div
+        class="overlayLanding d-flex justify-content-center align-items-center"
+      >
+        <span
+          class="text-white fs-1 position-absolute start-0"
+          onclick="openNav()"
+          ><i class="fa-solid fa-bars"></i> OPEN</span
+        >
+
+        <div id="main">
+          <!-- Heading -->
+          <div class="welcomeText text-center text-white w-100">
+            <h1 class="fs-1">Egyptian Party</h1>
+            <p class="fs-5">Let's have Fun</p>
+          </div>
+        </div>
+        <div
+          id="mySidenav"
+          class="sidenav d-flex justify-content-center align-items-center flex-column"
+        >
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="#landingpage">Home</a>
+          <a href="#join">Duration</a>
+          <a href="#singers">Details</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <!--                                End Home                                 -->
+
+    <!--                               Start Singers                                -->
+    <section id="singers" class="bg-white py-5">
+      <div class="container py-5">
+        <div class="w-50 m-auto">
+          <button class="accordion text-center bg-danger text-white ">Singer 1</button>
+          <div class="panel text-center ">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+              aliquam, saepe quas odit neque labore consectetur esse blanditiis
+              illum maiores officiis ipsa est autem. Beatae magnam accusamus
+              libero doloribus facilis.
+            </p>
+          </div>
+
+          <button class="accordion text-center bg-danger text-white">Singer 2</button>
+          <div class="panel text-center">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+              aliquam, saepe quas odit neque labore consectetur esse blanditiis
+              illum maiores officiis ipsa est autem. Beatae magnam accusamus
+              libero doloribus facilis.
+            </p>
+          </div>
+
+          <button class="accordion text-center bg-danger text-white">Singer 3</button>
+          <div class="panel text-center">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+              aliquam, saepe quas odit neque labore consectetur esse blanditiis
+              illum maiores officiis ipsa est autem. Beatae magnam accusamus
+              libero doloribus facilis.
+            </p>
+          </div>
+
+          <button class="accordion text-center bg-danger text-white">Singer 4</button>
+          <div class="panel text-center">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+              aliquam, saepe quas odit neque labore consectetur esse blanditiis
+              illum maiores officiis ipsa est autem. Beatae magnam accusamus
+              libero doloribus facilis.
+            </p>
+          </div>
+          <!-- <div class="accordion" id="singers">
+            <div class="accordion-item">
+              <div class="accordion-header" id="firstOne">
+                <button
+                  class="accordion-button bg-danger text-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#firstSinger"
+                  aria-expanded="true"
+                  aria-controls="firstSinger"
+                >
+                  First Singer
+                </button>
+                <div
+                  id="firstSinger"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="firstOne"
+                  data-bs-parent="#singers"
+                >
+                  <div class="accordin-body">
+                    <p class="fs-6 p-4 backG">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header" id="secondOne">
+                <button
+                  class="accordion-button bg-danger text-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#secondSinger"
+                  aria-expanded="true"
+                  aria-controls="secondSinger"
+                >
+                  Second Singer
+                </button>
+                <div
+                  id="secondSinger"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="secondOne"
+                  data-bs-parent="#singers"
+                >
+                  <div class="accordin-body">
+                    <p class="fs-6 p-4 backG">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header" id="thirdOne">
+                <button
+                  class="accordion-button bg-danger text-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#thirdSinger"
+                  aria-expanded="true"
+                  aria-controls="thirdSinger"
+                >
+                  Third Singer
+                </button>
+                <div
+                  id="thirdSinger"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="thirdOne"
+                  data-bs-parent="#singers"
+                >
+                  <div class="accordin-body">
+                    <p class="fs-6 p-4 backG">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header" id="fourthdOne">
+                <button
+                  class="accordion-button bg-danger text-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#fourthSinger"
+                  aria-expanded="true"
+                  aria-controls="fourthSinger"
+                >
+                  Fourth Singer
+                </button>
+                <div
+                  id="fourthSinger"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="fourthdOne"
+                  data-bs-parent="#singers"
+                >
+                  <div class="accordin-body">
+                    <p class="fs-6 p-4 backG">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!--                                End Singers                                 -->
+
+    <!--                               Start Join                                -->
+    <section id="join" class="text-center">
+      <div class="overlay">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-sm-3 col-md-3 mb-2">
+              <div
+                id="days"
+                class="counter border border-1 border-white p-5 text-center text-white"
+              ></div>
+            </div>
+            <div class="col-sm-3 col-md-3 mb-2">
+              <div
+                id="hour"
+                class="counter border border-1 border-white p-5 text-center text-white"
+              ></div>
+            </div>
+            <div class="col-sm-3 col-md-3 mb-2">
+              <div
+                id="minute"
+                class="counter border border-1 border-white p-5 text-center text-white"
+              ></div>
+            </div>
+            <div class="col-sm-3 col-md-3 mb-2">
+              <div
+                id="second"
+                class="counter border border-1 border-white p-5 text-white"
+              >
+                <!-- <span class="fs-3">Seconds</span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                                End Join                                 -->
+
+    <!--                              Start Contact                              -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="joinHead">
+          <h2 class="text-start">JOIN US</h2>
+          <p class="text-center fst-normal text-muted">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h6 class="text-uppercase text-start fw-bold">Contact Info</h6>
+            <p class="text-center text-muted">
+              Why you should hire me writeup Lorem ipsum dolor sit amet,
+              consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+            </p>
+            <ul class="mb-5">
+              <li class="text-muted m-4">
+                <i class="fa-solid fa-location-pin text-danger"></i> New Street
+                22545, Nexa Road, New York City, USA
+              </li>
+              <li class="text-muted m-4">
+                <i class="fa-solid fa-envelope text-danger"></i>
+                <a href="#" class="text-danger text-decoration-none"
+                  >hello@uigrid.com</a
+                >
+              </li>
+              <li class="text-muted m-4">
+                <i class="fa-solid fa-phone text-danger"></i> 001-000-000-000
+              </li>
+            </ul>
+            <div class="social text-muted d-flex">
+              <a href="#" class="py-2 px-3 m-2">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <!--  -->
+              <a href="#" class="py-2 px-3 m-2">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <!--  -->
+              <a href="#" class="py-2 px-3 m-2">
+                <i class="fab fa-google"></i>
+              </a>
+              <!--  -->
+              <a href="#" class="py-2 px-3 m-2">
+                <i class="fab fa-github"></i>
+              </a>
+              <!--  -->
+              <a href="#" class="py-2 px-3 m-2">
+                <i class="fab fa-behance"></i>
+              </a>
+              <!--  -->
+              <a href="#" class="py-2 px-3 m-2">
+                <i class="fab fa-dribbble"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form >
+              <div class="mb-3 mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter Name"
+                  name="name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter Email"
+                  name="email"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  name="message"
+                  placeholder="Enter Message"
+                  class="form-control"
+                  rows="5"
+                ></textarea>
+              </div>
+              <div>
+                <p class="text-dark">
+                  <span class="text-danger fs-5 " id="char">100</span> Character Reamining
+                </p>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-danger round round-0 px-5 py-2"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                               End Contact                               -->
+
+    <script src="Javascript/bootstrap.bundle.min.js"></script>
+    <!--bootstrap -->
+    <script src="Javascript/jquery-3.6.0.min.js"></script>
+    <!--jQuery -->
+    <script src="Javascript/myScript.js"></script>
+    <!--MyScript -->
+  </body>
+</html>
